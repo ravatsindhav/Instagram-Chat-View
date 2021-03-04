@@ -55,7 +55,7 @@ if(loading){
                 </button>
             </form>
             <div className="titleText text-center">
-                Instagram Backup Manager
+               Chat With
                 <span onClick={(e)=>{alert("Hello")}}>
                     <i className="fas fa-2x fa-info-circle info"></i>
                 </span>

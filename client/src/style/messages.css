@@ -1,8 +1,8 @@
 .black{
-    background-color: #000 !important;
+    background-color: rgb(248, 248, 248) !important;
 }
 body{
-    background-color: #000;
+    background-color:white;
     margin-top: 50px;
     margin-bottom: 70px;
     margin-left: 0px!important;
@@ -17,12 +17,16 @@ body{
     margin-bottom: 10px;
     background-color: transparent;
     border-style: solid;
-    border-color: rgba(255, 255, 255, 0.432);
+    color:#b8076e;
+    background-color: #c0d4db;
+    /* border-color: rgba(255, 255, 255, 0.432); */
     border-width: 0.25px;
     max-width: 90%;
     padding: 15px;
     margin-left: 5px;
     border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     overflow-wrap: break-word!important;
     display: inline-block;
@@ -30,22 +34,53 @@ body{
 }
 .msgdate{
     font-size:10px;
+    color:#00080d;
+    font-size: 15px;
+    font-weight: bold;
 }
 .messageSent{
-    margin-top: 10px;
-    /* //margin-bottom: 10px; */
-    background-color: #222121;
-    color: #fff;
+    /* margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0.25px;
     max-width: 90%;
     padding: 15px;
-    /* margin-left: 50%; */
+    margin-left: 5px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: #d3aaaa;
+    color: #06629c;
+    max-width: 90%;
+    padding: 15px;
     margin-right: 5px;
     border-radius: 25px;
+    border:none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     overflow-wrap: break-word!important;
     display: flex;
-    /* position: relative; */
-    justify-content: flex-end;
+    justify-content: flex-end; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-style: solid;
+    background-color: #d3aaaa;
+    color: #06629c;
+    /* border-color: rgba(255, 255, 255, 0.432); */
+    border-width: 0.25px;
+    max-width: 90%;
+    padding: 15px;
+    margin-left: 5px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-wrap: break-word!important;
+    display: inline-block;
+    justify-content: flex-end; 
+    right: 0;
     
 }
 .messageHeartS{
@@ -58,15 +93,15 @@ body{
     margin:10px;
 }
 .imageSent{
-    max-width: 200px;
+    max-width: 300px;
     border-radius:20px;
     max-height: 400px;
 }
 .messageReceived:hover{
-    background-color: rgba(255, 255, 255, 0.103);
-}
+    /* background-color: rgba(255, 255, 255, 0.103);*/
+} 
 .messageSent:hover{
-    background-color: rgba(243, 241, 241, 0.562);
+    /* background-color: rgba(243, 241, 241, 0.562); */
 
 }
 .convoAreaR{
@@ -241,7 +276,7 @@ body{
 .tooltip {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
+    /* border-bottom: 1px dotted black; */
   }
   
   .tooltip .tooltiptext {
@@ -279,7 +314,7 @@ body{
   .tooltipS {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
+    /* border-bottom: 1px dotted black; */
   }
   
   .tooltipS .tooltiptextS {

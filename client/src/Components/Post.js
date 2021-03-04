@@ -44,7 +44,7 @@ if(loading){
                             </Link>
                         </div>
                         <div className="titleText text-center">
-                            Instagram Backup Manager
+                           Chat With
                         </div>
                     </div>
 

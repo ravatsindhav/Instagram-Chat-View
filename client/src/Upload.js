@@ -6,7 +6,7 @@ const Upload = () => {
     <>
       {/* Header */}
       <div className="titleBarInbox" style={{ border: "none" }}>
-        <div className="titleText text-center">Instagram Backup Manager</div>
+        <div className="titleText text-center">Special One</div>
       </div>
       {/* Header End */}
       <div className="wrapper">

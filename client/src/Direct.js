@@ -72,7 +72,7 @@ if(loading){
                             <div className="black">
                                 <div className="titleBarInbox">
                                     <div className="titleText text-center">
-                                        Instagram Backup Manager
+                                       Chat With
                                     </div>
                                 </div>
                                 {arrUsr.length <= 0 ? 

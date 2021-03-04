@@ -39,7 +39,7 @@ if(loading){
                     {/* Nav Heading */}
                     <div className="titleBarInbox">
                         <div className="titleText text-center">
-                            Instagram Backup Manager
+                           Chat With
                         </div>
                     </div>
                 
